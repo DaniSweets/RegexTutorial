@@ -37,10 +37,14 @@ If you'd like to only accept zip codes at the beginning or end of a string, you 
 This expression includes two quantifiers. These look for 5 digits in a row, and 4 digits in a row. These are shown with {5} and {4}.
 
 ### Grouping Constructs
+The parentheses in this expression act as a grouping construct to separate the hyphen and 4-digit group from the rest of the expression.
 
 ### Bracket Expressions
+This expression does not use a bracket expression.
+Bracket expressions are used to match exact characters or ranges of characters. To exclude characters, a caret can be placed ahead of the negated set of characters.
 
 ### Character Classes
+In this expression, /d is a character class that signifies digits between 0 and 9.
 
 ### The OR Operator
 
