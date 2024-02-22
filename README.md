@@ -1,12 +1,11 @@
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
+# Zip Code Regex Tutorial
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I chose to describe a regex that accepts American zip codes.
+This expression accepts either 5-digit strings or 5-digit strings followed by a hyphen and a 4-digit string.
 
-I chose to describe a regex that accepts American zip codes. \d{5}(-\d{4})?
+\d{5}(-\d{4})?
 
 ## Table of Contents
 
