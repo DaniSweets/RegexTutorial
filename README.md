@@ -44,15 +44,16 @@ This expression does not use a bracket expression.
 Bracket expressions are used to match exact characters or ranges of characters. To exclude characters, a caret can be placed ahead of the negated set of characters.
 
 ### Character Classes
-In this expression, \d is a character class that signifies digits between 0 and 9.
+In this expression, \d is a short-hand for a character class that signifies digits between 0 and 9.
 
 ### The OR Operator
 This expression does not use an OR operator, but the optional second group works similarly. To write this expression with an OR operator, it would be \d{5}|\d{5}-\d{4}.
 
 ### Flags
+This expression does not contain any flags, but they can be placed after a delimiter. Common flags are g and m. g signifies global, meaning it will match as many times as needed within the input string. m signifies multi-line, which affects anchors to match with the beginning and ending of lines within a string and not just the string itself.
 
 ### Character Escapes
+This expression uses a character escape of \d. The backslash here lets the character d escape its direct meaning so that it now signifies digits between 0 and 9.
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+github.com/DaniSweets
