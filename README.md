@@ -44,9 +44,10 @@ This expression does not use a bracket expression.
 Bracket expressions are used to match exact characters or ranges of characters. To exclude characters, a caret can be placed ahead of the negated set of characters.
 
 ### Character Classes
-In this expression, /d is a character class that signifies digits between 0 and 9.
+In this expression, \d is a character class that signifies digits between 0 and 9.
 
 ### The OR Operator
+This expression does not use an OR operator, but the optional second group works similarly. To write this expression with an OR operator, it would be \d{5}|\d{5}-\d{4}.
 
 ### Flags
 
